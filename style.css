@@ -1,0 +1,81 @@
+ h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px ;
+    text-align: center;
+    color: rgb(255,255,255);
+    text-transform: uppercase
+ }
+ 
+ h2 {
+     font-family: 'Roboto Condensed', sans-serif;
+     font-size: 19px ;
+     text-align: center;
+     color: rgb(255,255,255);
+     text-transform: lowercase
+ }
+ 
+ h3 {
+     text-align: center;
+     color: rgb(255,255,255);
+     font-family: 'Roboto Condensed', sans-serif;
+     background-color: solid pink ;
+ }
+ 
+ h4 {
+     text-align: center;
+     color: white;
+     font-family: 'Playfair Display SC', serif;
+ }
+ 
+ p {
+    text-align: center;
+    font-size: 20px ;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(252, 212, 222);
+    width: 500px
+    
+}
+
+body {
+    background-color: rgb(203,180,237)
+  
+}
+
+div {
+    text-align: center;
+    color: rgb(255,2255,255);
+    background-color: rgb(228, 142, 249);
+}
+
+footer {
+    color: rgb(0,0,0);
+    font-family:'PT Sans Narrow', sans-serif;
+    font-weight: bold
+}
+    
+nav h1 {
+    text-align: left;
+    font-size: 15px;
+}
+
+nav p {
+    text-align: center
+}
+
+.about {
+    color: black;
+    font-family: 'Bellefair', serif;
+}
+
+.ordon {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.home {
+background-color: rgb(228, 142, 249)
+}
+
+.link {
+    font-family: 'Roboto Condensed', sans-serif;
+}
