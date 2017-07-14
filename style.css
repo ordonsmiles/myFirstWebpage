@@ -1,9 +1,10 @@
  h1 {
     font-family: 'Playfair Display SC', serif;
-    font-size: 40px ;
+    font-size: 40px;
     text-align: center;
     color: rgb(255,255,255);
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px black
  }
  
  h2 {
@@ -63,19 +64,74 @@ nav p {
     text-align: center
 }
 
+
+
 .about {
     color: black;
     font-family: 'Bellefair', serif;
-}
-
-.ordon {
-    font-family: 'Playfair Display SC', serif;
+    text-align: center;
 }
 
 .home {
-background-color: rgb(228, 142, 249)
+    background-color: rgb(228, 142, 249)
 }
 
 .link {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.label {
+    color: black;
+}
+
+.note {
+    font-size: 10px;
+    color: black;
+
+}
+
+#jordyn {
+    text-align: center;
+    font-size: 35px;
+}
+
+#round {
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+input {
+    margin-bottom: 15px;
+    border-style: double;
+    border-width: thick;
+    color: white;
+    background-color: black;
+    width: 130px;
+    height:40px;
+    font-size: medium;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#wrapper {
+    padding:0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: transparent;
+}
+
+#circle {
+    border-radius: 50%;
+}
+
+#oval {
+    border-radius:50%;
+}
+
+#more {
+    color: black;
+    text-transform: capitalize;
+    font-size: 30px
 }
